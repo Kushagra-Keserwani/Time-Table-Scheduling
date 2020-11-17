@@ -89,12 +89,10 @@ input.singleBox{
 #checkboxes {
 	line-height: 0;
 	margin-left: 100px;
-	width:100%;
-	
 }
 
 #checkboxes input[type="checkbox"] {
     margin: 25px;
 	padding: 0px;
-	
+	width: 1%;
 }
