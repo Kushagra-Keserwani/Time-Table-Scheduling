@@ -140,14 +140,18 @@ $("#finalYear input:nth-of-type(3)").on('keypress',function(evt){
 $(".fa-plus").click(function(){
 	$("input[type='text']").fadeToggle();
 });
-// $('#firstYear .singleBox').on('change','input:checkbox', function(){
+$('.singleBox').on('change', function(){
+	getCheckboxes();
+		if($(this).is(':checked')){
+			$('div#checkboxes').show();
+		}else{
+			$('div#checkboxes').hide();
+		}
 	
-// 		$('#checkboxes').fadeToggle();
-	
-// });
+});
 
-$(function(){
-	var v = 7;
+function getCheckboxes(){
+	var v = firstYearCodes.length;
 
 
 
@@ -197,6 +201,7 @@ var $this = $(this),
 	}else
 
 alert('checkbox changed (' + x + ', ' + y + '): ' + checked);
-});
+ 
 
 });
+}
