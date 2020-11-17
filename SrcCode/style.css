@@ -88,11 +88,11 @@ input.singleBox{
 }
 #checkboxes {
 	line-height: 0;
-	margin-left: 100px;
+	margin-left: 250px;
 }
 
 #checkboxes input[type="checkbox"] {
     margin: 25px;
 	padding: 0px;
-	width: 1%;
+	width: auto;
 }

@@ -182,7 +182,7 @@ for(y = 0; y < v; y++)
 target.append($('<br>'));
 }
 
-target.width(checkbox.outerWidth() * v + 2*v*25);
+// target.width(checkbox.outerWidth() * v + 2*v*25);
 
 target.on('change', 'input:checkbox', function(){
 
